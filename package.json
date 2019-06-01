@@ -1,0 +1,44 @@
+{
+  "name": "@elijahjcobb/optional",
+  "version": "0.0.1",
+  "description": "Replicates Swift's Optional, hold a value or undefined, written in TypeScript.",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run compile",
+    "compile": "npm run clean && /usr/local/bin/tsc -p tsconfig.json",
+    "watch": "tsc -w -p .",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elijahjcobb/optional.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "typescript",
+    "optional",
+    "swift",
+    "undefined",
+    "runtime",
+    "check"
+  ],
+  "author": "Elijah Cobb <elijah@elijahcobb.com> (https://elijahcobb.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elijahjcobb/optional/issues"
+  },
+  "homepage": "https://github.com/elijahjcobb/optional#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "latest",
+    "tslint": "latest"
+  },
+  "files": [
+    "dist"
+  ]
+}
