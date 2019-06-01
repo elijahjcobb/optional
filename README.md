@@ -1,4 +1,4 @@
-# Encryption
+# Optional
 Replicates Swift's Optional, hold a value or undefined, written in TypeScript.
 
 ## Usage
